@@ -1,3 +1,7 @@
+/*
+ * Generated using:
+ * https://zmk-physical-layout-converter.streamlit.app/
+ */
 #include <physical_layouts.dtsi>
 
 / {
