@@ -2,8 +2,8 @@
  * Generated using:
  * https://zmk-physical-layout-converter.streamlit.app/
  */
-#include <physical_layouts.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 
 &physical_layout0 {
     transform = <&matrix_transform>;
@@ -49,9 +49,6 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)  RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "5 Column";
-
-        kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0     0>
