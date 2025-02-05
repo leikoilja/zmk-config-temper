@@ -3,6 +3,7 @@
  * https://zmk-physical-layout-converter.streamlit.app/
  */
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "temper-layouts.dtsi"
 
 &physical_layout0 {
     transform = <&matrix_transform>;
