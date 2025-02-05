@@ -6,7 +6,7 @@
 
 #include "temper.dtsi"
 
-&default_transform {
+&matrix_transform {
     col-offset = <5>;
 };
 
