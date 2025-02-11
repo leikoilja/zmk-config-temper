@@ -25,7 +25,7 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: kukuloco_right
-  # bluetooth reset firmware
+  # settings reset firmware (flash first)
   # (https://zmk.dev/docs/troubleshooting/connection-issues#building-a-reset-firmware)
-  # - board: nice_nano_v2
-  #   shield: settings_reset
+  - board: nice_nano_v2
+    shield: settings_reset
