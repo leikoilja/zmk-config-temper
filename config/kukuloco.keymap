@@ -2,6 +2,6 @@
 // https://github.com/manna-harbour/miryoku
 // https://github.com/manna-harbour/miryoku_zmk/blob/master/config/temper.keymap
 
-#include "../miryoku/custom_config.h"
-#include "../miryoku/mapping/36/minidox.h"
-#include "../miryoku/miryoku.dtsi"
+#include "./miryoku/custom_config.h"
+#include "./miryoku/mapping/36/minidox.h"
+#include "./miryoku/miryoku.dtsi"
